@@ -1,24 +1,22 @@
-# Maven target
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# Build output
+/target/
 
-# IDEs
-*.iml
+# IDE files
+/.idea/
+/*.iml
 *.iws
 *.ipr
-.idea/
-*.classpath
-*.project
-.settings/
+/.settings/
 
 # VS Code
-.vscode/
+/.vscode/
 
 # Logs
 *.log
 
-# System
+# OS files
 .DS_Store
+Thumbs.db
 
 # Compiled class files
 *.class
@@ -31,13 +29,7 @@ target/
 *.tar.gz
 *.rar
 
-# Maven wrapper files (optional if you don’t want them in repo)
-mvnw
-mvnw.cmd
-.mvn/wrapper/
-
-# Already existing rules
-target/
-.idea/
-*.iml
-*.log
+# Maven wrapper (optional, since you don’t want it)
+/mvnw
+/mvnw.cmd
+/.mvn/wrapper/
