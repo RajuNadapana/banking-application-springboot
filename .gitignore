@@ -30,3 +30,14 @@ target/
 *.zip
 *.tar.gz
 *.rar
+
+# Maven wrapper files (optional if you don’t want them in repo)
+mvnw
+mvnw.cmd
+.mvn/wrapper/
+
+# Already existing rules
+target/
+.idea/
+*.iml
+*.log
